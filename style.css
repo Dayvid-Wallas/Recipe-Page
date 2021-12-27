@@ -1,0 +1,83 @@
+:root {
+    --orange-red: rgb(255,69,0);
+    --dark-slate-gray: rgb(47, 79, 79);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark-slate-gray);
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgba(47, 79, 79, 0.05);
+    line-height: 1.4rem;
+}
+
+h1, h2 {
+    color: var(--orange-red);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.ajust_padding {
+    margin-bottom: -2rem;
+}
+
+figure img {
+    max-width: 640px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+figure {
+    text-align: center;
+    border: 1px dashed gray;
+    padding: 1rem 0 0.4rem 0;
+    max-width: 680px;
+    background-color: white;
+    margin: auto;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 2rem 0 0.4rem 0;
+    font-weight: bold;
+}
+
+ul li, ol li {
+    padding: 0.6rem 0;
+}
+
+ul, ol {
+    padding-left: 2.5rem;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
